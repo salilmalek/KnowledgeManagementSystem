@@ -1,0 +1,139 @@
+body
+{
+	background-color: White;
+	color: #003399;
+}
+div.page
+{
+	margin: 25px 25px 25px 25px;
+	background-color: White;
+	min-width: 675px;
+	width: 95%;	
+	height: 433px;
+}
+.clFieldSetLegend
+{
+	color: Gray;
+	font-size: medium;
+	margin-top: 5px;
+}
+.header
+{
+	background-color: #263248;
+	height: 50px;
+}
+.title
+{
+	float: left;
+	font-family: Andalus;
+	font-size: 150%;
+	color: White;
+	padding: 4px 0px 4px 8px;
+}
+.preLoginTitle
+{
+	text-align: center;
+	font-family: Andalus;
+	font-size: 150%;
+	color: White;
+	padding: 4px 0px 4px 8px;
+}
+.sidebar
+{
+	float: left;
+	width: 20%;
+}
+.content
+{
+	float: left;
+	width: 75%;
+	text-align: center;
+}
+.profileImg
+{
+	padding: 10px 10px 10px 10px;
+	text-align: center;
+}
+.footer
+{
+	border-top: 1px solid Gray;
+	margin-top: 20px;
+}
+.copyrightDiv
+{
+	float: right;
+	color: Gray;
+	vertical-align: bottom;
+	height: 20px;
+}
+/*Menu
+--------------------------------------------------------*/
+div.menu
+{
+	float: right;
+	padding: 4px 4px 4px 4px;
+	font-size: small;
+}
+
+div.menu ul
+{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	width: auto;
+}
+div.menu ul li
+{
+	float: left;
+	margin-top: 2px;
+}
+div.menu ul li a, div.menu ul li a:visited
+{
+	background-color: #465c71;
+	border: 1px #4e667d solid;
+	color: #dde4ec;
+	display: block;
+	line-height: 1.35em;
+	padding: 4px 20px;
+	text-decoration: none;
+	white-space: nowrap;
+}
+
+div.menu ul li a:hover
+{
+	background-color: #bfcbd6;
+	color: #465c71;
+	text-decoration: none;
+}
+
+div.menu ul li a:active
+{
+	background-color: #465c71;
+	color: #cfdbe6;
+	text-decoration: none;
+}
+
+/*--------------------------------------------------------*/
+div.clLabelDIv
+{
+	text-align: left;
+	float: left;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	color: #003399;
+}
+div.clColonDiv
+{
+	text-align: center;
+	width: 5px;
+	float: left;
+	margin-bottom: 10px;
+	margin-right: 5px;
+	height: 16px;
+}
+div.clControlHolderDiv
+{
+	text-align: left;
+	float: left;
+	margin-bottom: 10px;
+}
